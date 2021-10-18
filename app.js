@@ -6,4 +6,4 @@ app.get("/", (req, res) => {
   res.send("Hello world");
 });
 
-app.listen(process.env.PORT || 5000, () => console.log("App is running..."));
+app.listen(5000, () => console.log("App is running..."));
